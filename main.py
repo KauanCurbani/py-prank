@@ -31,7 +31,7 @@ def on_click(x, y, button, pressed):
     
     if pressed:
         click_count += 1
-    if click_count > 200:
+    if click_count > 10:
         shown += 1
         audio_manager()
         if (shown % 2 == 1):
